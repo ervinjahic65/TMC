@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nosotros - Klear Consultants</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo and Company Name -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Inicio</a>
+          <a href="about.html" class="hover:text-gray-300">Sobre Nosotros</a>
+          <a href="contact.html" class="hover:text-gray-300">Contáctanos</a>
+          <a href="privacy.html" class="hover:text-gray-300">Política de Privacidad</a>
+          <a href="terms.html" class="hover:text-gray-300">Términos y Condiciones</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">Inicio</a>
+          <a href="about.html" class="hover:text-gray-300">Sobre Nosotros</a>
+          <a href="contact.html" class="hover:text-gray-300">Contáctanos</a>
+          <a href="privacy.html" class="hover:text-gray-300">Política de Privacidad</a>
+          <a href="terms.html" class="hover:text-gray-300">Términos y Condiciones</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6"> 
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">Sobre Nosotros</h1> 
+       
+      <section class="text-gray-700 leading-relaxed space-y-6 mb-12"> 
+        <p> 
+          En Klear Consultants, nuestra misión es ofrecer un cuidado compasivo y personalizado a los adultos mayores en la comodidad de sus hogares. Fundada con la idea de unir la tecnología médica moderna con el cuidado tradicional, nos hemos convertido en un proveedor confiable de atención domiciliaria y servicios de telemedicina. Cada persona mayor merece dignidad, respeto y un ambiente acogedor que favorezca su bienestar físico y emocional; esta filosofía guía cada una de nuestras decisiones. Nos esforzamos no solo por cumplir, sino por superar las expectativas de nuestros clientes y sus familias, asegurando tranquilidad y una mejor calidad de vida. Nuestro compromiso va más allá de la atención básica, enfocándose en el bienestar integral y en fomentar conexiones significativas.
+        </p> 
+        <p>
+           Creemos que el envejecimiento debe ser un viaje de crecimiento continuo y realización personal. Por ello, adaptamos nuestros servicios para empoderar a los adultos mayores, permitiéndoles mantener su independencia y participar en las actividades que disfrutan. Nuestro equipo está dedicado a brindar el apoyo necesario para que nuestros clientes vivan plenamente, manteniéndose conectados con sus comunidades y seres queridos.
+        </p>
+      </section> 
+     
+      <section class="two-columns mb-12"> 
+        <div class="content flex flex-col md:flex-row gap-8"> 
+          <div class="column flex-1"> 
+            <h3 class="text-xl font-bold mb-4">¿Por qué elegirnos?</h3> 
+            <ul class="list-disc pl-6 space-y-4"> 
+              <li>Cuidadores experimentados y profesionales médicos certificados</li> 
+              <li>Modelo híbrido de atención que combina telemedicina y visitas presenciales</li> 
+              <li>Planes de cuidado personalizados para condiciones crónicas y necesidades de movilidad</li> 
+              <li>Sistemas de respuesta de emergencia 24/7</li>
+              <li>Coordinadores de cuidado dedicados que brindan apoyo y comunicación constante</li>
+              <li>Programas especializados para el apoyo cognitivo y cuidado de la memoria</li>
+              <li>Evaluaciones y actualizaciones regulares de los planes de atención para adaptarse a las necesidades cambiantes</li>
+              <li>Alianzas con proveedores locales de salud para transiciones de cuidado sin contratiempos</li>
+            </ul> 
+          </div> 
+          <div class="column flex-1">
+              <h3 class="text-xl font-bold mb-4">Nuestro enfoque de atención</h3>
+              <p>
+                  Entendemos que cada adulto mayor tiene necesidades y preferencias únicas. Nuestro enfoque se centra en crear planes de cuidado personalizados que aborden tanto los requisitos médicos como personales. Nos enfocamos en construir relaciones sólidas y de confianza entre nuestros cuidadores y clientes, garantizando un ambiente cómodo y de apoyo. Nuestro equipo está capacitado para brindar asistencia no solo física, sino también emocional y social.
+              </p>
+              <p>
+                  Además, aprovechamos las tecnologías avanzadas de telemedicina para ofrecer monitoreo remoto y consultas, permitiendo intervenciones oportunas y un cuidado proactivo. Nuestro enfoque integrado asegura que nuestros clientes reciban una atención integral que promueva su bienestar general.
+              </p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="mb-12"> 
+        <h3 class="text-xl font-bold mb-6 text-[#FFA500]">Valores Fundamentales</h3> 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Transparencia</h4> 
+            <p>Comunicación clara sobre los servicios, costos y estrategias de atención para facilitar la toma de decisiones informadas. Proporcionamos informes detallados y actualizaciones periódicas a las familias, asegurando que todos estén informados y participen activamente.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Innovación</h4> 
+            <p>Capacitaciones bimensuales para el personal sobre las últimas tecnologías asistenciales y técnicas en el cuidado de la demencia. Invertimos continuamente en investigación y desarrollo para mejorar nuestra prestación de servicios y elevar la calidad de vida de nuestros clientes.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Comunidad</h4> 
+            <p>Talleres familiares mensuales y clubes sociales para adultos mayores para combatir el aislamiento. Fomentamos un sentido de pertenencia y conexión a través de actividades participativas y grupos de apoyo, fortaleciendo los lazos entre nuestros clientes, sus familias y la comunidad en general.</p> 
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Respeto</h4>
+              <p>Tratamos a cada individuo con dignidad y compasión. Honramos las experiencias y preferencias únicas de cada cliente, asegurando que se sientan valorados y respetados.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Integridad</h4>
+              <p>Mantenemos los más altos estándares éticos en todas nuestras interacciones. Estamos comprometidos con la honestidad, la responsabilidad y la confiabilidad en la prestación de nuestros servicios.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Empatía</h4>
+              <p>Entendemos y compartimos los sentimientos de nuestros clientes y sus familias. Abordamos cada situación con sensibilidad y compasión, proporcionando un apoyo que atiende tanto las necesidades emocionales como las prácticas.</p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="text-center py-8"> 
+        <h3 class="text-xl font-bold mb-4">¿Listo para discutir opciones de atención?</h3> 
+        <a href="contact.html" class="bg-[#FFA500] text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"> 
+          Agenda una Consulta Gratuita 
+        </a> 
+        <p class="mt-4">
+           Nuestro equipo está listo para responder tus preguntas y ayudarte a encontrar la mejor solución de atención para tu ser querido.
+        </p>
+      </section> 
+    </main>     
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">CNPJ: 78.989.613/0001-90</p>
+            <p class="mb-2">Inscrição Estadual: 8324829-77</p>
+            <p class="mb-2">Endereço: 974 Rua Itaguaí, Mangabeira, Feira de Santana, 44056-516</p>
+            <p class="mb-2">Número de teléfono: (75) 2871-8215</p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>Copyright © 2025 Klear Consultants. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
