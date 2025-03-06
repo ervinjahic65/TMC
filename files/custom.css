@@ -984,7 +984,6 @@ address,cite{
     position:relative
 }
 .text-highlight:before{
-    background:url(/wp-content/themes/elixirr-2021/assets/img/stroke-gold.svg) no-repeat;
     background-position:0 100%;
     background-size:cover;
     bottom:-3px;
@@ -1995,7 +1994,7 @@ body.search-active .mobile-menu-toggle{
 }
 @media only screen and (min-width:1337px){
     .site-nav__item--dropdown-active>.site-nav__feature-title:after,.site-nav__item--dropdown-active>.site-nav__item:after{
-        background:url(/wp-content/themes/elixirr-2021/assets/img/nav/desktop-up-chevron.svg) no-repeat
+        background:url(./desktop-up-chevron.svg) no-repeat
     }
 }
 .site-nav__item--dropdown-active~.menu-item{
@@ -2007,7 +2006,7 @@ body.search-active .mobile-menu-toggle{
     }
 }
 .site-nav__item--back{
-    background:url(/wp-content/themes/elixirr-2021/assets/img/nav/mobile-back-arrow.svg) no-repeat left 70%;
+    background:url(./mobile-back-arrow.svg) no-repeat left 70%;
     background-size:11px;
     display:block;
     margin-bottom:0;
@@ -2489,7 +2488,7 @@ body.search-active .mobile-menu-toggle{
 }
 @media only screen and (min-width:1337px){
     .site-nav__tab-item:after{
-        background:url(/wp-content/themes/elixirr-2021/assets/img/nav/desktop-down-chevron.svg) no-repeat;
+        background:url(./desktop-down-chevron.svg) no-repeat;
         background-size:8px;
         height:4px;
         top:10px;
@@ -2595,7 +2594,6 @@ body.search-active .mobile-menu-toggle{
         padding:40px 40px 10px
     }
     .site-nav__tab-mode .site-nav__tab-dropdown .sub-menu li.menu-item a.site-nav__tab-link:after{
-        background-image:url(/wp-content/themes/elixirr-2021/assets/img/arrow-right_orange.svg);
         content:"";
         display:inline-block;
         height:17px;
@@ -2667,7 +2665,6 @@ body.search-active .mobile-menu-toggle{
     }
 }
 .site-nav__tab-mode .site-nav__cta-links-wrapper a:after{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/arrow-right_orange.svg);
     content:"";
     display:inline-block;
     height:17px;
@@ -2777,48 +2774,6 @@ body.search-active .mobile-menu-toggle{
 }
 .social-media-bar a:before{
     display:none
-}
-.social-media-bar a.follow-icon-linkedin{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-linkedin.svg)
-}
-.social-media-bar a.follow-icon-linkedin:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-linkedin-hover.svg)
-}
-.social-media-bar a.follow-icon-youtube{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-youtube.svg)
-}
-.social-media-bar a.follow-icon-youtube:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-youtube-hover.svg)
-}
-.social-media-bar a.follow-icon-facebook{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-facebook.svg)
-}
-.social-media-bar a.follow-icon-facebook:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-facebook-hover.svg)
-}
-.social-media-bar a.follow-icon-newsletter{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-newsletter.svg)
-}
-.social-media-bar a.follow-icon-newsletter:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-newsletter-hover.svg)
-}
-.social-media-bar a.follow-icon-instagram{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-instagram.svg)
-}
-.social-media-bar a.follow-icon-instagram:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-instagram-hover.svg)
-}
-.social-media-bar a.follow-icon-soundcloud{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-soundcloud.svg)
-}
-.social-media-bar a.follow-icon-soundcloud:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-soundcloud-hover.svg)
-}
-.social-media-bar a.follow-icon-twitter{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-twitter.svg)
-}
-.social-media-bar a.follow-icon-twitter:hover{
-    background-image:url(/wp-content/themes/elixirr-2021/assets/img/social-media/sm-twitter-hover.svg)
 }
 .article-nav{
     counter-reset:li;
@@ -4294,7 +4249,7 @@ body.search-active .mobile-menu-toggle{
     border:1px solid #000
 }
 .hbspt-form form>div .inputs-list li label input:checked{
-    background:url(/wp-content/themes/elixirr-2021/assets/img/icon-form-checkmark.svg) #000 no-repeat 50%
+    background:url(./icon-form-checkmark.svg) #FFF no-repeat 50%
 }
 .hbspt-form form>div .inputs-list li label span{
     font-family:aktiv-grotesk,sans-serif;
@@ -5349,7 +5304,6 @@ body.search-active .mobile-menu-toggle{
     fill:#000
 }
 .aa-input{
-    background:url(/wp-content/themes/elixirr-2021/assets/img/icon-search--dark.svg) 0 0 no-repeat;
     background-position:0 50%;
     background-size:20px;
     border-bottom:1px solid #000;
@@ -6633,13 +6587,11 @@ mark:after{
     margin-bottom:50px
 }
 .subscribe .heading:before{
-    content:url(/wp-content/themes/elixirr-2021/assets/img/line.svg);
     display:block;
     position:relative;
     top:-33px
 }
 .subscribe .heading:after{
-    content:url(/wp-content/themes/elixirr-2021/assets/img/stopper.svg);
     display:block;
     position:relative;
     top:33px
@@ -7366,7 +7318,6 @@ section.animated-campaign+.centered-page-header{
     padding-top:90px
 }
 .animated-campaign-section.presents .centre .logo{
-    background:url(/wp-content/themes/elixirr-2021/assets/img/logo-mark.svg) 50% no-repeat;
     background-size:contain;
     height:45px;
     margin:0 auto 1.5em;
