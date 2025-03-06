@@ -511,5 +511,39 @@
                 }, 2000);
             });
         </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const slider = document.querySelector('.work-slider .slick-track');
+                const items = document.querySelectorAll('.work-slider .slick-slide:not(.slick-cloned)');
+                const leftArrow = document.querySelector('.work-slider-arrow-left');
+                const rightArrow = document.querySelector('.work-slider-arrow-right');
+                const counter = document.querySelector('.slider-top h3');
+
+                let currentIndex = 0;
+                const itemWidth = items[0].offsetWidth;
+                const totalItems = items.length;
+
+                function updateSlider() {
+                    slider.style.transform = `translate3d(-${currentIndex * itemWidth}px, 0px, 0px)`;
+                    counter.textContent = `${currentIndex + 1}/${totalItems}`;
+                }
+
+                rightArrow.addEventListener('click', function() {
+                    if (currentIndex < totalItems - 1) {
+                        currentIndex++;
+                        updateSlider();
+                    }
+                });
+
+                leftArrow.addEventListener('click', function() {
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                        updateSlider();
+                    }
+                });
+
+                updateSlider(); // Initial setup
+            });
+        </script>
     </body>
 </html>
