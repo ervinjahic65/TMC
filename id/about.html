@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami - Klear Consultants</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo dan Nama Perusahaan -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Navigasi Desktop -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Beranda</a>
+          <a href="about.html" class="hover:text-gray-300">Tentang Kami</a>
+          <a href="contact.html" class="hover:text-gray-300">Hubungi Kami</a>
+          <a href="privacy.html" class="hover:text-gray-300">Kebijakan Privasi</a>
+          <a href="terms.html" class="hover:text-gray-300">Syarat dan Ketentuan</a>
+        </nav>
+        <!-- Tombol Menu Hamburger Mobile -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Menu Navigasi Mobile -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">Beranda</a>
+          <a href="about.html" class="hover:text-gray-300">Tentang Kami</a>
+          <a href="contact.html" class="hover:text-gray-300">Hubungi Kami</a>
+          <a href="privacy.html" class="hover:text-gray-300">Kebijakan Privasi</a>
+          <a href="terms.html" class="hover:text-gray-300">Syarat dan Ketentuan</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6"> 
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">Tentang Kami</h1> 
+       
+      <section class="text-gray-700 leading-relaxed space-y-6 mb-12"> 
+        <p> 
+          Di Klear Consultants, misi kami adalah memberikan perawatan yang penuh kasih sayang dan dipersonalisasi kepada para lansia dengan kenyamanan di rumah mereka sendiri. Didirikan dengan ide menggabungkan teknologi kesehatan modern dengan pelayanan tradisional, kami telah menjadi penyedia terpercaya layanan perawatan di rumah dan telehealth. Setiap individu lansia berhak mendapatkan martabat, rasa hormat, dan lingkungan yang mendukung kesejahteraan fisik serta emosional – filosofi inilah yang menggerakkan setiap keputusan yang kami ambil. Kami berusaha tidak hanya memenuhi tetapi melampaui harapan klien dan keluarga mereka, memastikan ketenangan pikiran dan peningkatan kualitas hidup. Komitmen kami melampaui perawatan dasar, dengan fokus pada kesejahteraan holistik dan pembentukan hubungan yang bermakna.
+        </p> 
+        <p>
+          Kami percaya bahwa proses penuaan harus menjadi perjalanan pertumbuhan dan pemenuhan yang berkelanjutan. Oleh karena itu, kami menyesuaikan layanan kami untuk memberdayakan para lansia agar tetap mandiri dan terlibat dalam aktivitas yang mereka cintai. Tim kami berdedikasi untuk menyediakan dukungan yang memungkinkan klien kami menjalani hidup sepenuhnya, sambil tetap terhubung dengan komunitas dan orang-orang terkasih.
+        </p>
+      </section> 
+     
+      <section class="two-columns mb-12"> 
+        <div class="content flex flex-col md:flex-row gap-8"> 
+          <div class="column flex-1"> 
+            <h3 class="text-xl font-bold mb-4">Mengapa Memilih Kami?</h3> 
+            <ul class="list-disc pl-6 space-y-4"> 
+              <li>Pengasuh berpengalaman &amp; profesional medis bersertifikat</li> 
+              <li>Model perawatan hybrid yang menggabungkan layanan telehealth dan kunjungan langsung</li> 
+              <li>Rencana perawatan yang disesuaikan untuk kondisi kronis dan kebutuhan mobilitas</li> 
+              <li>Sistem tanggap darurat 24/7</li>
+              <li>Koordinator perawatan khusus yang menyediakan dukungan dan komunikasi secara konsisten</li>
+              <li>Program khusus untuk dukungan kognitif dan perawatan memori</li>
+              <li>Penilaian dan pembaruan rutin terhadap rencana perawatan untuk menyesuaikan kebutuhan yang berubah</li>
+              <li>Kerjasama dengan penyedia layanan kesehatan lokal untuk transisi perawatan yang mulus</li>
+            </ul> 
+          </div> 
+          <div class="column flex-1">
+              <h3 class="text-xl font-bold mb-4">Pendekatan Kami Terhadap Perawatan</h3>
+              <p>
+                  Kami memahami bahwa setiap lansia memiliki kebutuhan dan preferensi yang unik. Pendekatan kami berpusat pada pembuatan rencana perawatan yang dipersonalisasi yang mengakomodasi kebutuhan medis dan personal. Kami fokus membangun hubungan yang kuat dan saling percaya antara pengasuh dan klien, memastikan lingkungan yang nyaman dan mendukung. Tim kami dilatih untuk tidak hanya memberikan bantuan fisik, tetapi juga dukungan emosional dan sosial.
+              </p>
+              <p>
+                  Selain itu, kami memanfaatkan teknologi telehealth canggih untuk menyediakan pemantauan dan konsultasi jarak jauh, memungkinkan intervensi tepat waktu dan perawatan proaktif. Pendekatan terintegrasi kami memastikan bahwa klien menerima perawatan komprehensif yang mendukung kesejahteraan secara keseluruhan.
+              </p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="mb-12"> 
+        <h3 class="text-xl font-bold mb-6 text-[#FFA500]">Nilai Inti</h3> 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Transparansi</h4> 
+            <p>Komunikasi yang jelas mengenai layanan, biaya, dan strategi perawatan untuk pengambilan keputusan yang terinformasi. Kami menyediakan laporan terperinci dan pembaruan rutin kepada keluarga, memastikan semua pihak mendapatkan informasi dan terlibat.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Inovasi</h4> 
+            <p>Pelatihan staf dua bulanan mengenai teknologi bantu terbaru dan teknik perawatan demensia. Kami terus berinvestasi dalam riset dan pengembangan untuk meningkatkan penyampaian perawatan dan kualitas hidup klien kami.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Komunitas</h4> 
+            <p>Workshop keluarga bulanan dan klub sosial lansia untuk mengatasi isolasi. Kami membangun rasa memiliki dan koneksi melalui aktivitas yang menarik dan kelompok dukungan, memperkuat ikatan antara klien, keluarga mereka, dan komunitas yang lebih luas.</p> 
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Rasa Hormat</h4>
+              <p>Memperlakukan setiap individu dengan martabat dan belas kasih. Kami menghargai pengalaman dan preferensi unik setiap klien, memastikan mereka merasa dihargai dan dihormati.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Integritas</h4>
+              <p>Menjaga standar etika tertinggi dalam setiap interaksi. Kami berkomitmen pada kejujuran, akuntabilitas, dan kepercayaan dalam penyampaian perawatan.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Empati</h4>
+              <p>Memahami dan berbagi perasaan klien serta keluarga mereka. Kami mendekati setiap situasi dengan kepekaan dan belas kasih, memberikan dukungan yang mengakomodasi kebutuhan emosional dan praktis.</p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="text-center py-8"> 
+        <h3 class="text-xl font-bold mb-4">Siap Mendiskusikan Opsi Perawatan?</h3> 
+        <a href="contact.html" class="bg-[#FFA500] text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"> 
+          Jadwalkan Konsultasi Gratis 
+        </a> 
+        <p class="mt-4">
+           Tim kami siap menjawab pertanyaan Anda dan membantu menemukan solusi perawatan terbaik untuk orang yang Anda cintai.
+        </p>
+      </section> 
+    </main>     
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Informasi Perusahaan -->
+          <div>
+            <p class="mb-2">Nomor Perusahaan: 00943935</p>
+            <p class="mb-2">
+              Alamat: Lime St, London EC3M 7HR, UK
+            </p>
+            <p class="mb-2">Nomor Telepon: 01632 960189</p>
+          </div>
+          <!-- Hak Cipta -->
+          <div class="text-right">
+            <p>Hak Cipta © 2025 Klear Consultants. Semua hak dilindungi undang-undang.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript untuk Toggle Menu Mobile -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
