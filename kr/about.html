@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회사 소개 - Klear Consultants</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo and Company Name -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보 보호정책</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보 보호정책</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6"> 
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">회사 소개</h1> 
+       
+      <section class="text-gray-700 leading-relaxed space-y-6 mb-12"> 
+        <p> 
+          Klear Consultants에서는 노인들이 자택의 편안함 속에서 따뜻하고 맞춤형 돌봄을 받을 수 있도록 하는 것을 사명으로 합니다. 현대 의료 기술과 전통적 돌봄을 연결한다는 발상 아래 설립된 당사는 가정 내 돌봄 및 원격의료 서비스의 신뢰할 수 있는 제공자로 자리매김하였습니다. 모든 노인은 존엄과 존중을 받을 자격이 있으며, 신체적·정서적 안녕을 지원하는 따뜻한 환경이 필요합니다. 이러한 철학은 당사가 내리는 모든 결정의 원동력입니다. 당사는 고객과 그 가족의 기대를 충족시키는 것을 넘어 이를 초과 달성하여 마음의 안정을 제공하고 삶의 질을 향상시키기 위해 노력합니다. 당사의 헌신은 기본적인 돌봄을 넘어서, 전체적인 웰빙과 의미 있는 관계 형성에 집중하고 있습니다.
+        </p> 
+        <p>
+          노화는 지속적인 성장과 성취의 여정이어야 한다고 믿습니다. 따라서 당사는 노인들이 자립을 유지하고 좋아하는 활동에 참여할 수 있도록 맞춤형 서비스를 제공합니다. 당사 팀은 고객들이 지역사회 및 가족과의 연결을 유지하면서도 삶을 최대한 즐길 수 있도록 지원하는 데 전념하고 있습니다.
+        </p>
+      </section> 
+     
+      <section class="two-columns mb-12"> 
+        <div class="content flex flex-col md:flex-row gap-8"> 
+          <div class="column flex-1"> 
+            <h3 class="text-xl font-bold mb-4">왜 당사를 선택해야 하는가?</h3> 
+            <ul class="list-disc pl-6 space-y-4"> 
+              <li>경험이 풍부한 돌봄 제공자 및 자격을 갖춘 의료 전문가</li> 
+              <li>원격의료와 직접 방문을 결합한 하이브리드 돌봄 모델</li> 
+              <li>만성 질환 및 이동성 요구에 맞춘 맞춤형 돌봄 계획</li> 
+              <li>24시간 긴급 대응 시스템</li>
+              <li>지속적인 지원과 소통을 제공하는 전담 돌봄 코디네이터</li>
+              <li>인지 지원 및 기억력 돌봄을 위한 전문 프로그램</li>
+              <li>변화하는 요구에 맞춘 정기적인 평가 및 돌봄 계획 업데이트</li>
+              <li>원활한 돌봄 전환을 위한 지역 의료 제공자와의 협력</li>
+            </ul> 
+          </div> 
+          <div class="column flex-1">
+              <h3 class="text-xl font-bold mb-4">당사의 돌봄 접근 방식</h3>
+              <p>
+                  각 노인마다 고유한 요구와 선호가 있음을 이해합니다. 당사의 접근 방식은 의료적 및 개인적 요구를 모두 충족하는 맞춤형 돌봄 계획 수립에 중점을 두고 있습니다. 돌봄 제공자와 고객 간의 신뢰할 수 있는 관계를 구축하여 편안하고 지원이 되는 환경을 보장합니다. 당사 팀은 신체적 지원뿐만 아니라 정서적 및 사회적 지원도 제공할 수 있도록 교육받았습니다.
+              </p>
+              <p>
+                  또한, 당사는 첨단 원격의료 기술을 활용하여 원격 모니터링 및 상담을 제공함으로써 시기적절한 개입과 적극적인 돌봄을 가능하게 합니다. 당사의 통합 접근 방식은 고객들이 전반적인 웰빙을 증진하는 포괄적인 돌봄을 받을 수 있도록 보장합니다.
+              </p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="mb-12"> 
+        <h3 class="text-xl font-bold mb-6 text-[#FFA500]">핵심 가치</h3> 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">투명성</h4> 
+            <p>서비스, 비용 및 돌봄 전략에 대해 명확하게 소통하여 정보에 입각한 의사 결정을 돕습니다. 당사는 상세한 보고서와 정기적인 업데이트를 통해 가족들이 정보를 공유하고 참여할 수 있도록 합니다.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">혁신</h4> 
+            <p>최신 보조 기술 및 치매 돌봄 기법에 대해 격월로 직원 교육을 실시합니다. 당사는 연구 및 개발에 지속적으로 투자하여 돌봄 서비스를 개선하고 고객의 삶의 질을 향상시킵니다.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">커뮤니티</h4> 
+            <p>월간 가족 워크숍 및 노인 사회 클럽을 통해 고립을 해소합니다. 당사는 참여형 활동과 지원 그룹을 통해 소속감과 연결감을 조성하여 고객, 가족, 그리고 더 넓은 커뮤니티 간의 유대감을 강화합니다.</p> 
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">존중</h4>
+              <p>모든 개인을 존엄과 연민으로 대합니다. 당사는 각 고객의 고유한 경험과 선호를 존중하여 그들이 소중하게 느낄 수 있도록 합니다.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">정직성</h4>
+              <p>모든 상호 작용에서 최고의 윤리 기준을 유지합니다. 당사는 돌봄 제공에서 정직, 책임감, 신뢰성을 고수합니다.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">공감</h4>
+              <p>고객 및 그 가족의 감정을 이해하고 함께 나눕니다. 당사는 모든 상황에 민감함과 연민으로 접근하여 정서적 및 실질적 요구를 모두 충족하는 지원을 제공합니다.</p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="text-center py-8"> 
+        <h3 class="text-xl font-bold mb-4">돌봄 옵션에 대해 상담해 보시겠습니까?</h3> 
+        <a href="contact.html" class="bg-[#FFA500] text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"> 
+          무료 상담 예약 
+        </a> 
+        <p class="mt-4">
+          당사 팀은 귀하의 질문에 답변하고 소중한 분을 위한 최상의 돌봄 솔루션을 찾는 데 도움을 드릴 준비가 되어 있습니다.
+        </p>
+      </section> 
+    </main>     
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">
+              주소: 서울특별시 중구 서소문동 21-1 <br>
+              전화: +34 986 227 374 <br>
+              법인 등록 번호: 4010501096087 <br>
+            </p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>© 저작권 2025 Klear Consultants. 모든 권리 보유</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>

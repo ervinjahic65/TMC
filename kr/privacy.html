@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인정보 보호정책 - Klear Consultants</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보 보호정책</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">홈</a>
+          <a href="about.html" class="hover:text-gray-300">회사 소개</a>
+          <a href="contact.html" class="hover:text-gray-300">문의하기</a>
+          <a href="privacy.html" class="hover:text-gray-300">개인정보 보호정책</a>
+          <a href="terms.html" class="hover:text-gray-300">이용 약관</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="container mx-auto p-6 bg-white shadow-md my-6">
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">개인정보 보호정책</h1>
+      <div class="text-gray-700 leading-relaxed space-y-6">
+        <p>
+          Klear Consultants에서는 고객님의 개인정보 보호를 최우선으로 생각합니다. 본 개인정보 보호정책은 당사 웹사이트 방문 및 서비스 이용 시, 고객님의 개인정보를 어떻게 수집, 이용, 공개 및 보호하는지에 대해 설명합니다. 당사의 방침을 이해하시기 위해 본 정책을 주의 깊게 읽어보시기 바랍니다.
+        </p>
+        <p>
+          <strong>정보 수집:</strong> 당사는 회원가입, 뉴스레터 구독, 양식 작성 또는 기타 활동을 통해 고객님이 자발적으로 제공하는 정보를 수집합니다. 여기에는 이름, 이메일 주소, 전화번호 및 당사 서비스 제공에 필요한 기타 정보가 포함될 수 있습니다. 또한, 쿠키 및 유사 기술을 통해 고객님의 기기 정보 및 브라우징 활동과 같은 정보를 자동으로 수집할 수도 있습니다.
+        </p>
+        <p>
+          <strong>개인정보의 이용:</strong> 수집된 정보는 고객님의 경험을 개인화하고, 웹사이트를 개선하며, 요청하신 서비스를 제공하기 위해 사용됩니다. 당사는 주기적으로 이메일, 업데이트 또는 판촉 자료를 발송할 수 있으나, 고객님의 개인정보를 제3자에게 판매하거나 임대하지 않습니다. 고객님의 데이터는 서비스 제공을 향상하고 중요한 업데이트를 전달하는 데에만 사용됩니다.
+        </p>
+        <p>
+          <strong>데이터 보안:</strong> 당사는 고객님의 개인정보 안전을 위해 다양한 보안 조치를 시행하고 있습니다. 개인정보 접근은 기밀 유지 의무가 부여된 승인된 직원에게만 허용됩니다. 다만, 인터넷을 통한 전송이나 전자 저장 방법이 완벽하게 안전할 수 없으므로, 절대적인 보안을 보장할 수는 없습니다.
+        </p>
+        <p>
+          <strong>제3자 공개:</strong> 당사는 웹사이트 운영 및 비즈니스 수행을 지원하는 신뢰할 수 있는 제3자 서비스 제공업체와 고객님의 정보를 공유할 수 있으며, 이들은 고객님의 정보를 기밀로 유지할 것을 약속합니다. 당사는 이들 제3자가 고객님의 개인정보를 자체 마케팅 목적으로 사용하는 것을 허용하지 않습니다.
+        </p>
+        <p>
+          <strong>본 정책의 변경:</strong> Klear Consultants는 언제든지 본 개인정보 보호정책을 업데이트하거나 수정할 권리를 보유합니다. 모든 변경 사항은 수정된 날짜와 함께 이 페이지에 게시됩니다. 수정된 정책에 동의하는 경우에만 웹사이트를 계속 사용해 주시기 바랍니다.
+        </p>
+        <p>
+          본 개인정보 보호정책이나 당사의 데이터 처리 관행에 대해 질문이 있으신 경우, <a href="contact.html" class="text-[#FFA500] underline">문의하기 페이지</a>에 제공된 연락처를 통해 당사에 연락해 주시기 바랍니다. 당사는 고객님의 우려 사항을 신속히 해결하고 디지털 서비스 이용 시 개인정보의 안전을 보장하기 위해 최선을 다할 것입니다.
+        </p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">
+              주소: 서울특별시 중구 서소문동 21-1 <br>
+              전화: +34 986 227 374 <br>
+              법인 등록 번호: 4010501096087 <br>
+            </p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>© 저작권 2025 Klear Consultants. 모든 권리 보유</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
