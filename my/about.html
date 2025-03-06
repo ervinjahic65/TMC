@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Klear Consultants</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="files/logo.png" sizes="16x16">
+    <style>
+      html,
+      body {
+          height: 100%;
+      }
+      body {
+          display: flex;
+          flex-direction: column;
+      }
+      main {
+          flex: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-[#FFA500] text-white sticky top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo and Company Name -->
+        <div class="flex items-center">
+          <img src="files/logo.png" alt="Logo" class="h-24 mr-3" />
+        </div>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="about.html" class="hover:text-gray-300">About Us</a>
+          <a href="contact.html" class="hover:text-gray-300">Contact Us</a>
+          <a href="privacy.html" class="hover:text-gray-300">Privacy Policy</a>
+          <a href="terms.html" class="hover:text-gray-300">Terms and Conditions</a>
+        </nav>
+        <!-- Mobile Hamburger Menu Button -->
+        <div class="md:hidden">
+          <button id="menuButton" class="focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="md:hidden hidden bg-[#FFA500] text-white">
+        <nav class="flex flex-col space-y-2 p-4">
+          <a href="index.html" class="hover:text-gray-300">Home</a>
+          <a href="about.html" class="hover:text-gray-300">About Us</a>
+          <a href="contact.html" class="hover:text-gray-300">Contact Us</a>
+          <a href="privacy.html" class="hover:text-gray-300">Privacy Policy</a>
+          <a href="terms.html" class="hover:text-gray-300">Terms and Conditions</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto p-6 bg-white shadow-md my-6"> 
+      <h1 class="text-3xl font-bold mb-4 text-[#FFA500]">About Us</h1> 
+       
+      <section class="text-gray-700 leading-relaxed space-y-6 mb-12"> 
+        <p> 
+          At Klear Consultants, our mission is to deliver compassionate and personalized care to seniors in the comfort of their own homes. Founded on the idea of bridging modern healthcare technology with traditional caregiving, we’ve become a trusted provider of in-home care and telehealth services. Every elderly individual deserves dignity, respect, and a nurturing environment that supports both physical and emotional well-being – this philosophy drives every decision we make. We strive to not only meet but exceed the expectations of our clients and their families, ensuring peace of mind and enhanced quality of life. Our commitment extends beyond basic care, focusing on holistic wellness and fostering meaningful connections.
+        </p> 
+        <p>
+           We believe that aging should be a journey of continued growth and fulfillment. Therefore, we tailor our services to empower seniors to maintain their independence and engage in activities they love. Our team is dedicated to providing support that allows our clients to live their lives to the fullest, while staying connected to their communities and loved ones.
+        </p>
+      </section> 
+     
+      <section class="two-columns mb-12"> 
+        <div class="content flex flex-col md:flex-row gap-8"> 
+          <div class="column flex-1"> 
+            <h3 class="text-xl font-bold mb-4">Why Choose Us?</h3> 
+            <ul class="list-disc pl-6 space-y-4"> 
+              <li>Experienced caregivers & certified medical professionals</li> 
+              <li>Hybrid care model combining telehealth and in-person visits</li> 
+              <li>Customized care plans for chronic conditions and mobility needs</li> 
+              <li>24/7 emergency response systems</li>
+              <li>Dedicated care coordinators who provide consistent support and communication</li>
+              <li>Specialized programs for cognitive support and memory care</li>
+              <li>Regular assessments and updates to care plans to adapt to changing needs</li>
+              <li>Partnerships with local healthcare providers for seamless care transitions</li>
+            </ul> 
+          </div> 
+          <div class="column flex-1">
+              <h3 class="text-xl font-bold mb-4">Our Approach to Care</h3>
+              <p>
+                  We understand that each senior has unique needs and preferences. Our approach is centered on creating personalized care plans that address both medical and personal requirements. We focus on building strong, trusting relationships between our caregivers and clients, ensuring a comfortable and supportive environment. Our team is trained to provide not just physical assistance, but also emotional and social support.
+              </p>
+              <p>
+                  Furthermore, we leverage advanced telehealth technologies to provide remote monitoring and consultations, allowing for timely interventions and proactive care. Our integrated approach ensures that our clients receive comprehensive care that promotes overall well-being.
+              </p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="mb-12"> 
+        <h3 class="text-xl font-bold mb-6 text-[#FFA500]">Core Values</h3> 
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6"> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Transparency</h4> 
+            <p>Clear communication about services, costs, and care strategies for informed decision-making. We provide detailed reports and regular updates to families, ensuring everyone is informed and involved.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Innovation</h4> 
+            <p>Bi-monthly staff training on the latest assistive technologies and dementia care techniques. We continually invest in research and development to improve our care delivery and enhance the quality of life for our clients.</p> 
+          </div> 
+          <div class="p-4 bg-gray-50 rounded-lg"> 
+            <h4 class="font-bold mb-2">Community</h4> 
+            <p>Monthly family workshops and senior social clubs to combat isolation. We foster a sense of belonging and connection through engaging activities and support groups, strengthening the bonds between our clients, their families, and the wider community.</p> 
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Respect</h4>
+              <p>Treating every individual with dignity and compassion. We honor the unique experiences and preferences of each client, ensuring they feel valued and respected.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Integrity</h4>
+              <p>Maintaining the highest ethical standards in all our interactions. We are committed to honesty, accountability, and trustworthiness in our care delivery.</p>
+          </div>
+          <div class="p-4 bg-gray-50 rounded-lg">
+              <h4 class="font-bold mb-2">Empathy</h4>
+              <p>Understanding and sharing the feelings of our clients and their families. We approach every situation with sensitivity and compassion, providing support that addresses both emotional and practical needs.</p>
+          </div>
+        </div> 
+      </section> 
+     
+      <section class="text-center py-8"> 
+        <h3 class="text-xl font-bold mb-4">Ready to Discuss Care Options?</h3> 
+        <a href="contact.html" class="bg-[#FFA500] text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors"> 
+          Schedule Free Consultation 
+        </a> 
+        <p class="mt-4">
+           Our team is ready to answer your questions and help you find the best care solution for your loved one.
+        </p>
+      </section> 
+    </main>     
+
+    <!-- Footer -->
+    <footer class="bg-[#FFA500] text-white">
+      <div class="container mx-auto p-4">
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Company Info -->
+          <div>
+            <p class="mb-2">Company number 00943935</p>
+            <p class="mb-2">Address: Lime St, London EC3M 7HR, UK</p>
+            <p class="mb-2">Phone number: 01632 960189</p>
+          </div>
+          <!-- Copyright -->
+          <div class="text-right">
+            <p>Copyright © 2025 Klear Consultants. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu Toggle -->
+    <script>
+      const menuButton = document.getElementById('menuButton');
+      const mobileMenu = document.getElementById('mobileMenu');
+
+      menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
+  </body>
+</html>
